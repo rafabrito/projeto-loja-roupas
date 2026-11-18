@@ -3,6 +3,45 @@
     padding: 0;
 }
 
-.carousel-inner {
+#carouselExampleIndicators .carousel-inner {
     height: 25em;
 }
+
+.category-body {
+    display:flex;
+}
+
+.category-image {
+    /* display: flex; */
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* border: solid #dee2e6; */
+}
+
+.category-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .carousel-item {
+    display: flex;
+    margin-right: 0;
+    flex: 0 0 calc(100% / 3);
+} */
+
+/*#option_carousel {
+    padding: 1em;
+} */
+
+.carousel-control-prev, .carousel-control-next {
+    width: 6vh;
+    height: 6vh;
+    background-color: #363636;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
