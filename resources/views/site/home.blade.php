@@ -100,44 +100,125 @@
             </div>
         </div>
 
-        <div class="container-fluid mt-4">
-            <div id="carouselExample" class="carousel slide">
+        <div class="container mt-4">
+            <div id="carouselExample" class="carousel slide d-none d-sm-block">
                 <div class="carousel-inner" id="option_carousel">
                     <div class="carousel-item active">
-                        <div class="category-body">
-                            <div class="category-image">
-                                <img src="{{ asset('image/foto1.jpg')}}" alt="" width="300">
+                        <div class="categories">
+                            <div class="category-body">
+                                <a href="#">
+                                    <div class="category-image">
+                                        <img src="{{ asset('image/foto1.jpg')}}" alt="" width="300">
+                                    </div>
+                                    <div class="category-label mt-2">
+                                        <p><small>Categoria 1</small></p>
+                                    </div>
+                                </a>
                             </div>
-                            <div class="category-label">
-                                <h5>Categoria 1</h5>
+
+                            <div class="category-body">
+                                <a href="#">
+                                    <div class="category-image">
+                                        <img src="{{ asset('image/foto2.jpg')}}" alt="" width="300">
+                                    </div>
+                                    <div class="category-label mt-2">
+                                        <p><small>Categoria 2</small></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category-body">
+                                <a href="#">
+                                    <div class="category-image">
+                                        <img src="{{ asset('image/foto3.jpg')}}" alt="" width="300">
+                                    </div>
+                                    <div class="category-label mt-2">
+                                        <p><small>Categoria 3</small></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category-body">
+                                <a href="#">
+                                    <div class="category-image">
+                                        <img src="{{ asset('image/foto1.jpg')}}" alt="" width="300">
+                                    </div>
+                                    <div class="category-label mt-2">
+                                        <p><small>Categoria 4</small></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category-body">
+                                <a href="#">
+                                    <div class="category-image">
+                                        <img src="{{ asset('image/foto2.jpg')}}" alt="" width="300">
+                                    </div>
+                                    <div class="category-label mt-2">
+                                        <p><small>Categoria 5</small></p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="options-round">
-                            <img src="{{ asset('image/foto2.jpg')}}"  width="300">
+                        <div class="categories">
+                            <div class="category-body">
+                                <a href="#">
+                                    <div class="category-image">
+                                        <img src="{{ asset('image/foto3.jpg')}}" alt="" width="300">
+                                    </div>
+                                    <div class="category-label mt-2">
+                                        <p><small>Categoria 6</small></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category-body">
+                                <a href="#">
+                                    <div class="category-image">
+                                        <img src="{{ asset('image/foto1.jpg')}}" alt="" width="300">
+                                    </div>
+                                    <div class="category-label mt-2">
+                                        <p><small>Categoria 7</small></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category-body">
+                                <a href="#">
+                                    <div class="category-image">
+                                        <img src="{{ asset('image/foto2.jpg')}}" alt="" width="300">
+                                    </div>
+                                    <div class="category-label mt-2">
+                                        <p><small>Categoria 8</small></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category-body">
+                                <a href="#">
+                                    <div class="category-image">
+                                        <img src="{{ asset('image/foto3.jpg')}}" alt="" width="300">
+                                    </div>
+                                    <div class="category-label mt-2">
+                                        <p><small>Categoria 9</small></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category-body">
+                                <a href="#">
+                                    <div class="category-image">
+                                        <img src="{{ asset('image/foto1.jpg')}}" alt="" width="300">
+                                    </div>
+                                    <div class="category-label mt-2">
+                                        <p><small>Categoria 10</small></p>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="options-round">
-                            <img src="{{ asset('image/foto3.jpg')}}" width="300">
-                        </div>
-                    </div>
-                    <div class="carousel-item active">
-                        <div class="options-round">
-                            <img src="{{ asset('image/foto1.jpg')}}" alt="" width="300">
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="options-round">
-                            <img src="{{ asset('image/foto2.jpg')}}"  width="300">
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="options-round">
-                            <img src="{{ asset('image/foto3.jpg')}}" width="300">
-                        </div>
-                    </div>
+                    </div>     
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -149,6 +230,39 @@
                 </button>
             </div>
         </div>
+
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <img src="{{ asset('image/foto1.jpg') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="{{ asset('image/foto1.jpg') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="{{ asset('image/foto1') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
 
         <div class="container"> 
             <footer class="py-5"> 
