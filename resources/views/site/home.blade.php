@@ -32,7 +32,7 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#"><i class="fa fa-cart-shopping"></i></a>
                             </li>
                             <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -79,13 +79,13 @@
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item h-100 active" style="background-image: url({{ asset('image/carrossel1.avif') }}); background-size: contain; background-repeat: no-repeat; background-position: center;">
+                    <div class="carousel-item carousel-image bg-img-1 active">
                         {{-- <img src="{{ asset('img/carrossel1.avif') }}" class="d-block w-100" alt="..."> --}}
                     </div>
-                    <div class="carousel-item h-100" style="background: url({{ asset('image/carrossel2.avif') }}) center/contain no-repeat">
+                    <div class="carousel-item carousel-image bg-img-2">
                         {{-- <img src="{{ asset('img/carrossel2.avif') }}" class="d-block w-100" alt="..."> --}}
                     </div>
-                    <div class="carousel-item h-100" style="background: url({{ asset('image/carrossel3.avif') }}) center/contain no-repeat">
+                    <div class="carousel-item carousel-image bg-img-3">
                         {{-- <img src="{{ asset('img/carrossel3.avif') }}" class="d-block w-100" alt="..."> --}}
                     </div>
                 </div>
@@ -100,7 +100,7 @@
             </div>
         </div>
 
-        <div class="container mt-4">
+        <div class="container mt-2 mb-2"">
             <div id="carouselExample" class="carousel slide d-none d-sm-block">
                 <div class="carousel-inner" id="option_carousel">
                     <div class="carousel-item active">
@@ -231,38 +231,60 @@
             </div>
         </div>
 
-        <!-- <div class="container">
+        <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col p-1">
                     <div class="card">
                         <img src="{{ asset('image/foto1.jpg') }}" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <p class="card-title">Card title fsdfsdfsdafdsdfsfsdfsdfsdfsdfsdf</p>
+                            <h5 class="card-text">R$ 120,00</h5>
+                            <a href="#" class="btn btn-dark btn-float"><i class="fa fa-cart-plus"></i></a>
                         </div>
                     </div>
-
+                </div>
+                <div class="col p-1">
+                    <div class="card">
+                        <img src="{{ asset('image/foto2.jpg') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title">Card title</p>
+                            <h5 class="card-text">R$ 120,00</h5>
+                            <a href="#" class="btn btn-dark btn-float"><i class="fa fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-1">
+                    <div class="card">
+                        <img src="{{ asset('image/foto3.jpg') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title">Card title</p>
+                            <h5 class="card-text">R$ 120,00</h5>
+                            <a href="#" class="btn btn-dark btn-float"><i class="fa fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-1">
                     <div class="card">
                         <img src="{{ asset('image/foto1.jpg') }}" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <p class="card-title">Card title</p>
+                            <h5 class="card-text">R$ 120,00</h5>
+                            <a href="#" class="btn btn-dark btn-float"><i class="fa fa-cart-plus"></i></a>
                         </div>
                     </div>
-
+                </div>
+                <div class="col p-1">
                     <div class="card">
-                        <img src="{{ asset('image/foto1') }}" class="card-img-top" alt="...">
+                        <img src="{{ asset('image/foto2.jpg') }}" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <p class="card-title">Card title</p>
+                            <h5 class="card-text">R$ 120,00</h5>
+                            <a href="#" class="btn btn-dark btn-float"><i class="fa fa-cart-plus"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <div class="container"> 
             <footer class="py-5"> 
